@@ -12,6 +12,6 @@ void MergeSort::sort(std::vector<int> &vec, const uint8_t begin, const uint8_t e
 	merge(vec, begin, mid, end);
 }
 
-void MergeSort::merge(std::vector<int> &vec, const uint8_t begin, const uint8_t end, const uint8_t end)
+void MergeSort::merge(std::vector<int> &vec, const uint8_t begin, const uint8_t end, const uint8_t mid)
 {
 }
