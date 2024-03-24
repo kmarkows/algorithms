@@ -1,7 +1,7 @@
 #include "./insertionSort.hpp"
 #include "./linearSearch.hpp"
-#include "./selectionSort.hpp"
 #include "./mergeSort.hpp"
+#include "./selectionSort.hpp"
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
 	// InsertionSort::sort(vec);
 	// std::cout << LinearSearch::search(vec, 10) << std::endl;
 	// SelectionSort::sort(vec);
-    MergeSort::sort(vec);
-    Utils::print(vec);
+	MergeSort::sort(vec);
+	Utils::print(vec);
 	return 0;
 }
