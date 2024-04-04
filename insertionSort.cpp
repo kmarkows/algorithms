@@ -1,4 +1,4 @@
-#include "./insertionSort.hpp"
+#include "InsertionSort.hpp"
 
 void InsertionSort::sort(std::vector<int> &vec)
 {

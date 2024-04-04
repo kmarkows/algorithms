@@ -1,4 +1,4 @@
-#include "./linearSearch.hpp"
+#include "LinearSearch.hpp"
 
 int LinearSearch::search(std::vector<int> &vec, int target)
 {

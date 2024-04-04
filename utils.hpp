@@ -1,7 +1,8 @@
+#pragma once
+
 #include <iostream>
 #include <stdint.h>
 #include <vector>
-#pragma once
 
 class Utils
 {
