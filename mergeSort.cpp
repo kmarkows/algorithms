@@ -8,8 +8,6 @@ void MergeSort::sort(std::vector<int> &vec)
 
 void MergeSort::sort(std::vector<int> &vec, const uint8_t begin, const uint8_t end)
 {
-	// Utils::print(vec);
-
 	if (begin >= end)
 	{
 		return;
