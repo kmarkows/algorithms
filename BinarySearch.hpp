@@ -2,6 +2,6 @@
 
 class BinarySearch
 {
-public:
-    static int search(std::vector<int>& vec, int target);
+  public:
+	static int search(std::vector<int> &vec, int target);
 };
