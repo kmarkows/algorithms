@@ -11,6 +11,7 @@ void QuickSort::sort(std::vector<int> &vec, const int8_t begin, const int8_t end
 {
 	if (begin < end)
 	{
+		Utils::print(vec);
 		int8_t pivotIndex = partition(vec, begin, end);
 		sort(vec, begin, pivotIndex - 1);
 		sort(vec, pivotIndex + 1, end);

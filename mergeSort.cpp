@@ -2,6 +2,7 @@
 
 void MergeSort::sort(std::vector<int> &vec)
 {
+	Utils::print(vec);
 	sort(vec, 0, vec.size() - 1);
 	Utils::print(vec);
 }
