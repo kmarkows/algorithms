@@ -7,13 +7,20 @@ namespace maximumSubarrayProblem
 void DivideAndConquer::find(std::vector<int> vec)
 {
 	Utils::print(vec);
-	std::vector<int> diff{};
+	std::vector<int> diff = findDiff(vec);
 	for (uint8_t i = 0; i < vec.size() - 1; i++)
+	Utils::print(diff);
+	std::cout << find(diff, 0, diff.size() - 1) << std::endl;
+}
+
+std::vector<int> DivideAndConquer::findDiff(std::vector<int>& vec)
+{
+    std::vector<int> diff{};
+    for (uint8_t i = 0; i < vec.size() - 1; i++)
 	{
 		diff.push_back(vec[i + 1] - vec[i]);
 	}
-	Utils::print(diff);
-	std::cout << find(diff, 0, diff.size() - 1) << std::endl;
+    return diff;
 }
 
 int DivideAndConquer::find(std::vector<int> vec, uint8_t begin, uint8_t end)

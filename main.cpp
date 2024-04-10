@@ -1,5 +1,6 @@
 #include "./maximumSubarrayProblem/BruteForce.hpp"
 #include "./maximumSubarrayProblem/DivideAndConquer.hpp"
+#include "./maximumSubarrayProblem/KadanesAlgorithm.hpp"
 #include "BinarySearch.hpp"
 #include "BubbleSort.hpp"
 #include "InsertionSort.hpp"
@@ -19,7 +20,8 @@ int main()
 	// MergeSort::sort(vec);
 	// QuickSort::sort(vec);
 	// maximumSubarrayProblem::BruteForce::find(vec);
-    maximumSubarrayProblem::DivideAndConquer::find(vec);
+    // maximumSubarrayProblem::DivideAndConquer::find(vec);
+    maximumSubarrayProblem::KadanesAlgorithm::find(vec);
 
 	return 0;
 }
