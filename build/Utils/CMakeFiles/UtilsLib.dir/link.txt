@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libUtilsLib.a CMakeFiles/UtilsLib.dir/Utils.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libUtilsLib.a

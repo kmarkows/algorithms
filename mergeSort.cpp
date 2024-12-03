@@ -1,14 +1,14 @@
-#include "MergeSort.hpp"
+#include "./MergeSort.hpp"
 
 void MergeSort::sort(std::vector<int> &vec)
 {
-	Utils::print(vec);
 	sort(vec, 0, vec.size() - 1);
-	Utils::print(vec);
 }
 
 void MergeSort::sort(std::vector<int> &vec, const uint8_t begin, const uint8_t end)
 {
+	Utils::print(vec);
+
 	if (begin >= end)
 	{
 		return;

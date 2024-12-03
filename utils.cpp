@@ -1,4 +1,4 @@
-#include "Utils.hpp"
+#include "./Utils.hpp"
 
 void Utils::print(const std::vector<int> &vec)
 {
@@ -9,12 +9,9 @@ void Utils::print(const std::vector<int> &vec)
 	std::cout << std::endl;
 }
 
-void Utils::print(const std::vector<int> &vec, const uint8_t subarrayStart, const uint8_t subarrayEnd,
-				  const int maximumSum)
+void Utils::swap(int &a, int &b)
 {
-	for (uint8_t i = subarrayStart; i < subarrayEnd + 1; i++)
-	{
-		std::cout << vec[i] << " ";
-	}
-	std::cout << std::endl << "maximum price difference is: " << maximumSum << std::endl;
+	int temp = a;
+	a = b;
+	b = temp;
 }

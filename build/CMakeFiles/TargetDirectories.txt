@@ -1,0 +1,15 @@
+/Users/konradmarkowski/Documents/Algorithms/build/CMakeFiles/algorithms.dir
+/Users/konradmarkowski/Documents/Algorithms/build/CMakeFiles/edit_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/CMakeFiles/rebuild_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/sortingAlgorithms/CMakeFiles/SortingAlgorithmsLib.dir
+/Users/konradmarkowski/Documents/Algorithms/build/sortingAlgorithms/CMakeFiles/edit_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/sortingAlgorithms/CMakeFiles/rebuild_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/searchingAgorithms/CMakeFiles/SearchingAlgorithmsLib.dir
+/Users/konradmarkowski/Documents/Algorithms/build/searchingAgorithms/CMakeFiles/edit_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/searchingAgorithms/CMakeFiles/rebuild_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/maximumSubarrayProblem/CMakeFiles/MaximumSubarrayProblemLib.dir
+/Users/konradmarkowski/Documents/Algorithms/build/maximumSubarrayProblem/CMakeFiles/edit_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/maximumSubarrayProblem/CMakeFiles/rebuild_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/utils/CMakeFiles/UtilsLib.dir
+/Users/konradmarkowski/Documents/Algorithms/build/utils/CMakeFiles/edit_cache.dir
+/Users/konradmarkowski/Documents/Algorithms/build/utils/CMakeFiles/rebuild_cache.dir

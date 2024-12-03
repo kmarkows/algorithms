@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libSearchingAlgorithmsLib.a CMakeFiles/SearchingAlgorithmsLib.dir/BinarySearch.cpp.o CMakeFiles/SearchingAlgorithmsLib.dir/LinearSearch.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libSearchingAlgorithmsLib.a

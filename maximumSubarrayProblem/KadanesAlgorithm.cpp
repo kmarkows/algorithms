@@ -28,7 +28,7 @@ void KadanesAlgorithm::find(std::vector<int>& vec)
         } 
     }
     std::cout << "maximumSubarrayStart:" << (int)maximumSubarrayStart << " maximumSubarrayEnd:" << (int)maximumSubarrayEnd << std::endl;
-    Utils::print(vec, maximumSubarrayStart + 1, maximumSubarrayEnd + 1, maxSoFar);
+    // Utils::print(vec, maximumSubarrayStart + 1, maximumSubarrayEnd + 1, maxSoFar);
 }
 
 std::vector<int> KadanesAlgorithm::findDiff(std::vector<int>& vec)

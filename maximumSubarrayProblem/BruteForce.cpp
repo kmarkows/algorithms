@@ -22,7 +22,7 @@ void BruteForce::find(std::vector<int> &vec)
 			}
 		}
 	}
-	Utils::print(vec, maximumSubarrayStart, maximumSubarrayEnd, maximumSum);
+	// Utils::print(vec, maximumSubarrayStart, maximumSubarrayEnd, maximumSum);
 }
 
 } // namespace maximumSubarrayProblem

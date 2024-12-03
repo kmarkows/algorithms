@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libSortingAlgorithmsLib.a CMakeFiles/SortingAlgorithmsLib.dir/BubbleSort.cpp.o CMakeFiles/SortingAlgorithmsLib.dir/HeapSort.cpp.o CMakeFiles/SortingAlgorithmsLib.dir/InsertionSort.cpp.o CMakeFiles/SortingAlgorithmsLib.dir/MergeSort.cpp.o CMakeFiles/SortingAlgorithmsLib.dir/QuickSort.cpp.o CMakeFiles/SortingAlgorithmsLib.dir/SelectionSort.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libSortingAlgorithmsLib.a
